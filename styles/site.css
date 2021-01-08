@@ -1,5 +1,19 @@
-.movie-poster {
-    margin-left: 87px;
-    max-width: 200px;
-    padding-bottom: 20px;
+
+
+/* For devices larger than 400px */
+@media (min-width: 1000px) {
+    .movie-poster {
+        margin-left: 87px;
+        max-width: 200px;
+        padding-bottom: 20px;
+    }
+}
+
+/* For devices less than 400px */
+@media (max-width: 1000px) {
+    .movie-poster {
+        margin-left: 37px;
+        max-width: 200px;
+        padding-bottom: 20px;
+    }
 }
